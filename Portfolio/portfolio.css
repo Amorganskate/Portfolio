@@ -1,0 +1,236 @@
+* {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  }
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/hdrbackground.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+  }
+
+  /* --------------- */
+  /* ---------- Header Intro Text------------- */
+  /* --------------- */
+
+.header-cntr {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.header {
+  padding-top: 20%;
+  background: none;
+  font-size: 80px;
+  /* color: white; */
+}
+
+.header, h1, h2 {
+  font-size: 63px;
+}
+.header, h1 {
+  font-weight: 700;
+}
+.header, h2 {
+  font-size: 42px;
+  font-weight: 300;
+  color: white;
+}
+
+
+.header-break {
+  margin:  auto;
+  width: 25%;
+  border: 0;
+  opacity: 0.7;
+  color: white;
+}
+
+/* --------------- */
+/* ---------- Social Medial Header Links------------- */
+/* --------------- */
+
+.sm-links {
+  padding-top: 48px;
+  text-align: center;
+  width: auto;
+  color: white;
+}
+
+.sm-links i {
+  padding: 15px;
+}
+
+.row a {
+  border: none;
+  color: white;
+}
+
+.hvr-ldin :hover {
+  color: #0077B5;
+  transform: scale(1.5);
+  transition: .5s;
+}
+
+.hvr-fb :hover {
+  color: #3B5998;
+  transform: scale(1.5);
+  transition: .5s;
+}
+
+.hvr-insta :hover {
+  background: linear-gradient(45deg, #405DE6 0%, #5851DB 25%, #833AB4 50%, #C43584 75%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  transform: scale(1.5);
+  transition: .5s;
+}
+
+.hvr-twtr :hover {
+  color: #1DA1F2;
+  transform: scale(1.5);
+  transition: .5s;
+}
+
+.hvr-gh :hover {
+  color: rgb(55, 41, 56) ;
+  transform: scale(1.5);
+  transition: .5s;
+}
+
+/* --------------- */
+/* ---------- About Me Section------------- */
+/* --------------- */
+
+section {
+  padding: 87px 0px;
+  color: #343434;
+}
+.qoute{
+  text-align: center;
+}
+
+.about-me h2 {
+  font-weight: 700;
+  color: #343434;
+  font-size: 62px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 1.3px;
+}
+
+.section-about-me {
+  background: #f4f4f4;
+  border: none;
+  margin: 0 auto;
+
+}
+
+.abt-me-col {
+  margin: 2%;
+  line-height: 1.45;
+  letter-spacing: 1.1px;
+  font-weight: 300;
+  font-size: 17px;
+
+}
+
+.abt-me-icon {
+  padding-bottom: 20px;
+  margin-left: 33.3%;
+}
+
+.qoute-hr {
+  margin: 1% 35% 8%;
+  border: 0;
+  height: 2.3px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* --------------- */
+/* ---------- Portfolio Section------------- */
+/* --------------- */
+ .portfolio-section {
+   background: url(imgs/portfoliobg.jpg);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/portfoliobg.jpg);
+   background-size: cover;
+   /* height: 100%; */
+   background-attachment: fixed;
+   overflow: hidden;
+ }
+
+.portfolio h2 {
+  font-weight: 700;
+  color: white;
+  font-size: 62px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1.3px;
+}
+
+.portfolio p {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+}
+
+.portfolio-break {
+  margin: 1% 35% 6%;
+  border: 0;
+  height: 2.3px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* --------------- */
+/* ---------- Portfolio img / btns Section------------- */
+/* --------------- */
+
+.carousel {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.item img {
+  height: 500px;
+  max-height: 500px;
+  width: 100%;
+}
+
+.carousel-caption a {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+
+.carousel-caption h1 {
+  color: rgb(236, 236, 236);
+}
